@@ -14,7 +14,7 @@ My eyes were crying every time I opened Procodrr in light mode, so I built a sim
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/procodrr-dark-mode.git
+git clone https://github.com/adityakumar1120/procodrr-dark-mode-extension.git
 ```
 
 Or Click the green `Code` button on GitHub and select `Download ZIP`.
