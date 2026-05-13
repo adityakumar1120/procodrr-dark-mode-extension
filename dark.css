@@ -1,0 +1,77 @@
+.dark {
+    --surface : #111827b3 !important;
+    --surface-page : #111827b3 !important;
+    --text-title-light : #fff !important;
+    --text-title : #fff !important;
+    --border200 : #3c3838 !important;
+    --border100 : #3c3838 !important;
+    --border : #3c3838 !important;
+    --background-secondary : #171616e8 !important;
+    --background:#2b2929 !important;
+    --text-title-lighter:#a9a5a5 !important;
+    --secondary:#fff !important;
+    --text-body:#a9a5a5 !important;
+    --primary100 : #000 !important;
+    --primary-fill : #4d4e50a8 !important;
+    --text-subtitle : #fffdfdb0 !important;
+    --icon : #fff !important;
+
+    .course-details-page .course_content .ant-collapse {
+    background-color: #111827b3 !important;
+}
+.headerUser{
+    background-color: #111827 !important;
+}
+
+.title_page h3,h4,.customSearchBar,.tab-title, .heading_sidebar h2, .ant-typography,
+.course-details .tab_changemain .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+    color: white !important;
+}
+
+
+
+.chapter-item-wrapper .right_wrapper h5 , .collapse_right_heading h5{
+    color : #a9a1a1 !important;
+}
+.ant-row .ant-col svg , .tab-icon svg , .close_icon_fixed svg , .ant-select-arrow .anticon svg , .customSearchBarWrapper svg{
+    fill : white !important;
+}
+.ant-menu-submenu , .header_main, .heading_sidebar,.close_icon_fixed,.ant-select-item {
+    background-color: black !important;
+}
+
+.header-icon{
+    background-color: #a89b9b47 !important;
+}
+.header-icon svg , .input-wrapper__actions svg , .submenu_content span svg{
+    fill: white !important;
+}
+.ant-select-item:hover{
+    background-color: #4d4e50a8 !important;
+}
+
+.course_dashboard .ant-input:focus{
+    color: white !important;
+    -webkit-text-fill-color: white !important;
+}
+.header_main{
+    border-bottom: #3c3838 !important;
+}
+}
+
+.dark-mode-btn{
+    position: fixed;
+    width: 24px;
+    height: 24px;
+    bottom: 48px;
+    right: 32px;
+    cursor: pointer;
+}
+.dark .dark-mode-btn svg{
+    fill: white;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+.hide{
+    opacity: 0;
+}
